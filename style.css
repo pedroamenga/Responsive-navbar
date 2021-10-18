@@ -22,7 +22,7 @@ a{
 }
 .logo{
     color:white;
-    font-size:xx-large;
+    font-size: xxx-large;
 }
 
 .nav-links{
@@ -49,6 +49,10 @@ a{
     transition:all 0.3s ease;
 }
 
+.nav-links li:hover, .logo:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width:1024px){
     .nav-links{
         width: 40%;
@@ -71,11 +75,9 @@ a{
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        color: white;
     }
     .nav-links li{
         opacity: 0;
-        color: white;
     }
     .burger{
         display: block;
@@ -99,7 +101,7 @@ a{
 }
 
 .toggle .line1{
-    transform: rotate(-44deg) translate(-5px,6px);
+    transform: rotate(-45deg) translate(-5px,6px);
 }
 
 .toggle .line2{
@@ -107,5 +109,5 @@ a{
 }
 
 .toggle .line3{
-    transform: rotate(44deg) translate(-5px,-6px);
+    transform: rotate(45deg) translate(-5px,-6px);
 }
