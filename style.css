@@ -72,12 +72,9 @@ a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
-        transform: translateX(100%);
+        width: 100%;
+        transform: translateY(-120%);
         transition: transform 0.3s ease-in;
-    }
-    .nav-links li{
-        opacity: 0;
     }
     .burger{
         display: block;
