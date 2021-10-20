@@ -10,7 +10,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: black;
+    background-color: rgb(65, 149, 228);
 }
 
 body{
@@ -68,7 +68,7 @@ a{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: black;
+        background-color: rgb(65, 149, 228);
         display: flex;
         flex-direction: column;
         align-items: center;
